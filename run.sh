@@ -10,6 +10,9 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 
+# install pip
+sudo easy_install pip
+
 # install powerline
 pip install --user powerline-status
 
