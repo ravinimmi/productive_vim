@@ -13,6 +13,8 @@ Makes your vim powerful by installing these plugins
 ## Requirements
 - Mac OS X >= 10.10.5
 - easy_install 
+- solarized theme on terminal(https://github.com/tomislav/osx-terminal.app-colors-solarized)
+or iterm2 (https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 
 ## Usage
 
