@@ -34,6 +34,9 @@ cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-fugitive.git
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
-
+# install meslo font
+cd ~
+git clone https://github.com/powerline/fonts.git
+open "fonts/Meslo/Meslo LG L Regular for Powerline.otf"
 
 
