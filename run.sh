@@ -27,7 +27,7 @@ git clone git://github.com/tpope/vim-fugitive.git
 
 # install meslo font
 git clone https://github.com/powerline/fonts.git
-open "fonts/Meslo/Meslo LG L Regular for Powerline.otf"
+fonts/install.sh
 
 # install pip
 sudo easy_install pip
