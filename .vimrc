@@ -1,15 +1,25 @@
-"general
+" sets ruler shows line and column number
 set ruler
+
+" highlights line containing cursor
 set cursorline
+
+" show line number
 set number
+
+" get normat backspace behaviour
 set backspace=2
+
+" enable pathogen package manager
 call pathogen#infect()
+
+" indentation depending on file type
 filetype plugin indent on
 
-"syntax on
+" enable color coding of files
 syntax enable
 
-" Solarized stuff
+" Solarized theme stuff
 let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
@@ -23,17 +33,19 @@ autocmd BufWinEnter * NERDTreeMirror
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
-"let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
+" ctrlp to search files
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-"silver search
+" silver search exhaustive search
 "let g:ackprg = 'ag --nogroup --nocolor --column'
 let g:ackprg = 'ag --vimgrep'
 set runtimepath^=~/.vim/bundle/ag
 
-:set mouse=a
+" enable mouse
+set mouse=a
 
+" copy on clipboard
 set clipboard=unnamed
 
