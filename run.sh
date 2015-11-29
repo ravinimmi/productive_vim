@@ -21,4 +21,10 @@ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 brew install the_silver_searcher
 cd ~/.vim/bundle && git clone https://github.com/rking/ag.vim 
 
+# solarized theme
+cd ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git
+mv vim-colors-solarized ~/.vim/bundle/
+
+
 
