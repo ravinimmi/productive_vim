@@ -25,6 +25,9 @@ git clone git://github.com/altercation/vim-colors-solarized.git
 # fugitive
 git clone git://github.com/tpope/vim-fugitive.git
 
+# nerdcommenter
+git clone https://github.com/scrooloose/nerdcommenter.git
+
 # install meslo font
 git clone https://github.com/powerline/fonts.git
 fonts/install.sh
@@ -34,5 +37,6 @@ sudo easy_install pip
 
 # install powerline
 pip install --user powerline-status
+
 
 
