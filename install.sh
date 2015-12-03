@@ -38,5 +38,7 @@ sudo easy_install pip
 # install powerline
 pip install --user powerline-status
 
-
-
+brew install cmake
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd YouCompleteMe
+./install.py --clang-completer

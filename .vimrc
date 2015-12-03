@@ -50,3 +50,6 @@ set mouse=a
 " copy on clipboard
 set clipboard=unnamed
 
+" YouCompleteMe
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
