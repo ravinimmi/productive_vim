@@ -61,5 +61,5 @@ set expandtab
 set smartindent
 
 " To add closing braces
-inoremap { {<CR>}<Esc>ko
-inoremap ( (<CR>)<Esc>ko
+inoremap { {}
+inoremap ( ()
