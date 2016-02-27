@@ -28,6 +28,7 @@ colorscheme solarized
 map <F2> :NERDTreeToggle<CR>
 autocmd VimEnter * NERDTree
 autocmd BufWinEnter * NERDTreeMirror
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Powerline
 python from powerline.vim import setup as powerline_setup
