@@ -10,14 +10,37 @@ set number
 " get normat backspace behaviour
 set backspace=2
 
+" tabs and indents
+set tabstop=4 shiftwidth=4 expandtab
+set smartindent
+
+" add matching characters
+inoremap { {}
+inoremap ( ()
+inoremap [ []
+inoremap ' ''
+inoremap " ""
+
+" enable mouse
+set mouse=a
+
+" copy on clipboard
+set clipboard=unnamed
+
+
+
+
+" External Packages
+
+
 " enable pathogen package manager
 call pathogen#infect()
 
+" enable color coding of files
+syntax on
+
 " indentation depending on file type
 filetype plugin indent on
-
-" enable color coding of files
-syntax enable
 
 " Solarized theme stuff
 let g:solarized_termtrans = 1
@@ -51,22 +74,6 @@ let g:ctrlp_custom_ignore = {
 let g:ackprg = 'ag --vimgrep'
 set runtimepath^=~/.vim/bundle/ag
 
-" enable mouse
-set mouse=a
-
-" copy on clipboard
-set clipboard=unnamed
-
 " YouCompleteMe
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
-set tabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
-set smartindent
-
-" To add closing braces
-inoremap { {}
-inoremap ( ()
