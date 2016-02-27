@@ -12,7 +12,7 @@ set backspace=2
 
 " tabs and indents
 set tabstop=4 shiftwidth=4 expandtab
-set smartindent
+" set smartindent
 
 " add matching characters
 inoremap { {}
