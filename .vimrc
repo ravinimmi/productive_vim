@@ -39,6 +39,12 @@ let g:Powerline_symbols = 'fancy'
 
 " ctrlp to search files
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v([\/](\.(git|hg|svn))|(node_modules))$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
 
 " silver search exhaustive search
 "let g:ackprg = 'ag --nogroup --nocolor --column'

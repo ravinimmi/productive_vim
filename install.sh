@@ -13,7 +13,7 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 
 # install ctrlp
-git clone https://github.com/kien/ctrlp.vim.git ctrlp.vim
+git clone https://github.com/ctrlpvim/ctrlp.vim.git ctrlp.vim
 
 # install silver search
 brew install the_silver_searcher
