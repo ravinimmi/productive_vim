@@ -59,4 +59,5 @@ pip install --user powerline-status
 brew install cmake
 install_package Valloric/YouCompleteMe.git
 cd YouCompleteMe
+git submodule update --init --recursive
 ./install.py --clang-completer
